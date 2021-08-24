@@ -1,0 +1,151 @@
+//VARIABLES
+$link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
+//AMBICIONES
+.body__ambiciones {
+	background-color: rgb(56, 119, 255);
+	background-size: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.header__ambiciones {
+	font-family: 'Times New Roman', Times, serif;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.575);
+}
+.button__ambiciones {
+	width: 50px;
+	height: 20px;
+	background-color: blue;
+	box-shadow: 15px;
+}
+.figure__ambiciones {
+	position: relative;
+    width: 0.25%;
+    top: -505%;
+}
+.h1__ambiciones {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p__ambiciones {
+	color: rgb(0, 0, 0);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	text-align: justify;
+}
+.div__ambiciones {
+	color: aliceblue;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(56, 119, 255);
+}
+.nav__ambiciones {
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 20px;
+}
+.footer__ambiciones {
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 20px;
+	background-color: midnightblue;
+	border: 20px solid #ff0059;
+}
+.a__ambiciones {
+	color: aliceblue;
+	text-align: end;
+	font-family: 'Times New Roman', Times, serif;
+}
+.form__ambiciones {
+	color: aliceblue;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgba(56, 119, 255, 0.123);
+	padding: 20px;
+	box-shadow: black 5px 5px 55px;
+	float: right;
+	border: 20px 10px solid #ff0059;
+	top: -100%;
+	position: relative;
+}
+.li__ambiciones {
+	font-family: 'Roboto', sans-serif;
+	font-size: large;
+	color: maroon;
+	text-decoration: none;
+	font-weight: bold;
+	list-style: none;
+	border: #ff0059 7px;
+}
+.button__ambiciones {
+	height: 40px;
+}
+.imagen__ambiciones {
+	width: 100%;
+	height: 600px;
+}
+.title__ambiciones {
+	padding-left: 25px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.texto__ambiciones {
+	font-size: 24px;
+	color: rgba(8, 8, 8, 0.664);
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	padding-left: 50px;
+}
+.clearfix__ambiciones {
+	clear: both;
+}
+.footerEnPartes__ambiciones {
+	width: 1400px;
+	float: left;
+	height: auto;
+	background-color: midnightblue;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+}
+.links__ambiciones {
+	text-decoration: none;
+	color: $link lighten($color: $link, $amount: 10);  
+}
+.pFooter__ambiciones {
+	color: mintcream;
+	letter-spacing: 5px;
+	font-size: large;
+}
+.copyrightFooter__ambiciones {
+	font-family: sans-serif;
+	font-style: italic;
+	padding: 70px;
+	margin: 0px;
+	animation-name: runMe;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.pCopy__ambiciones {
+	color: blanchedalmond;
+	font-size: large;
+	text-align: center;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: 0;
+	background-color: red;
+	color: #fff;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+	&:hover {
+		background-color: #555;
+	}
+}

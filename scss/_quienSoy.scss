@@ -1,0 +1,351 @@
+//QUIEN SOY
+.body__quienSoy {
+	background: #0a2a43;
+	min-height: 1500px;
+	margin: 0px;
+}
+.claire-de-lune__quienSoy {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+		background: linear-gradient(to top,#0a2a43,transparent);
+		z-index: 1000;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #0a2a43;
+		z-index: 1000;
+		mix-blend-mode: color;
+	}
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		pointer-events: none;
+	}
+}
+.section_2__quienSoy {
+	font-size: medium;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+#text {
+	position: relative;
+	color: cornsilk;
+	font-size: 10em;
+	z-index: 1;
+}
+#road {
+	z-index: 2;
+}
+.wrapper {
+	width: 20%;
+	margin: auto;
+	align-self: center;
+	justify-self: center;
+	top: 50%;
+	overflow: hidden;
+}
+.header__quienSoy {
+	background: rgb(0, 0, 0);
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	z-index: 10000;
+	top: 0px;
+}
+.nav__quienSoy {
+	float: left;
+	.ul__quienSoy {
+		list-style: none;
+		overflow: hidden;
+		.li__quienSoy {
+			float: left;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			.a__quienSoy {
+				display: block;
+				padding: 20px;
+				color: #fff;
+				text-decoration: none;
+			}
+			&:hover {
+				background: #1841f8;
+			}
+		}
+	}
+}
+.h1__quienSoy {
+	color: cornsilk;
+	font-size: 6em;
+}
+.p__quienSoy {
+	color: cornsilk;
+	font-size: 1.5em;
+}
+.link1__quienSoy {
+	text-decoration: none;
+	color: cyan;
+}
+.a__quienSoy2 {
+	font-size: large;
+	color: aliceblue;
+	width: 150px;
+	height: 60px;
+	align-content: center;
+	justify-content: center;
+	background: linear-gradient(to end,blue,red);
+}
+.li__quienSoy {
+	height: 70px;
+	margin-right: 0px;
+	text-align: center;
+}  
+.ul__quienSoy {
+	.li__quienSoy {
+		.a__quienSoy2 {
+			position: relative;
+			display: inline-block;
+			padding: 20px;
+			text-transform: uppercase;
+			text-decoration: none;
+			letter-spacing: 2.2px;
+			overflow: hidden;
+			background: linear-gradient(90deg,transparent,rgba(55, 210, 248, 0.815),rgb(11, 65, 243));
+			z-index: 1;
+			text-decoration: none;
+			text-align-last: center;
+		}
+	}
+}
+.negrita__quienSoy {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	color: aliceblue;
+	font-size: 1.8em;
+}
+/*MOBILE FIRST*/
+@media only screen and (max-width:320px){
+    
+    #text {
+        font-size: 3em;
+        margin:5px;
+    }
+
+    .h1__quienSoy {
+        font-size: 2em;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .p__quienSoy{
+        font-size: 12px;
+        text-align: left;
+        margin-right: 45px;
+    }
+    .navbar-brand{
+        padding-left: 7px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .navbar-brand{
+        padding-left: 7px;
+    }
+    #text {
+        font-size: 4em;
+        margin:20px;
+    }
+
+    .h1__quienSoy {
+        font-size: 3em;
+        text-align: center;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .p__quienSoy{
+        font-size: 12px;
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 1px;
+        align-items: center;
+    }
+    .negrita__quienSoy{
+        padding-left: 5px;
+    }
+
+}
+@media only screen and (max-width:425px){
+    .navbar-brand{
+        padding-left: 17px;
+    }
+    #text {
+        font-size: 4em;
+        margin:20px;
+    }
+
+    .h1__quienSoy {
+        font-size: 3em;
+        text-align: center;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .p__quienSoy{
+        font-size: 12px;
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 10px;
+        align-items: center;
+    }
+    .negrita__quienSoy{
+        padding-left: 8px;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width:768px){
+    .navbar-brand{
+        padding-left: 37px;
+    }
+    #text {
+        font-size: 4em;
+        margin:20px;
+    }
+
+    .h1__quienSoy {
+        font-size: 3em;
+        text-align: center;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .p__quienSoy{
+        font-size: 18px;
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 10px;
+        align-items: center;
+    }
+    .negrita__quienSoy{
+        padding-left: 8px;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width:1024px){
+    .navbar-brand{
+        padding-left: 57px;
+    }
+    #navbarNav{
+        padding-left: 450px;
+    }
+    #text {
+        font-size: 4em;
+        margin:20px;
+    }
+
+    .h1__quienSoy {
+        font-size: 3em;
+        text-align: center;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .p__quienSoy{
+        font-size: 18px;
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .negrita__quienSoy{
+        padding-left: 18px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:1440px){
+    .navbar-brand{
+        padding-left: 97px;
+    }
+    #navbarNav{
+        padding-left: 750px;
+    }
+    #text {
+        font-size: 4em;
+        margin:20px;
+    }
+
+    .h1__quienSoy {
+        font-size: 3em;
+        text-align: center;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .p__quienSoy{
+        font-size: 18px;
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .negrita__quienSoy{
+        padding-left: 18px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:2560px){
+    .navbar-brand{
+        padding-left: 257px;
+        font-size: 4em;
+    }
+    #navbarNav{
+        padding-left: 1450px;
+        font-size: 1.5em;
+    }
+    #text {
+        font-size: 12em;
+        margin:20px;
+    }
+
+    .h1__quienSoy {
+        font-size: 6em;
+        text-align: center;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .p__quienSoy{
+        font-size: 38px;
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .negrita__quienSoy{
+        padding-left: 18px;
+        align-items: center;
+        font-size: 58px;
+    }
+    .pCopy__ambiciones{
+        font-size: 3em;
+    }
+}
