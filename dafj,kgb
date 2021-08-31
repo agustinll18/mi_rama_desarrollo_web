@@ -1,42 +1,81 @@
-/*ANIMACIONES*/
-/*ESTO ES PARA LA PANTALLA DE CARGA DE TODOS LOS HTML*/
-@keyframes carga {
-    0% {
-        opacity: 0.08;
-        font-size: 40px;
-        font-weight: 400;
-        filter: blur(5px);
-        letter-spacing: 3px;
-    }
+En cuanto al proyecto aún debemos realizar cambios.
 
-    100% {
-        opacity: 0.7;
-        font-size: 60px;
-        font-weight: 600;
-        filter: blur(2);
-    }
-}
+Comprendo el tema del index, pero es un requisito que sea responsive.
+Tal vez agregar js en ese archivo y en esta instancia trae sus dificultades ya que lo ideal sería dominar unicamente html +css primero. 
+Por otro lado es necesario que se vea consistente el menú de navegación. Es decir siempre encontrarlo disponible en el mismo lugar. 
+Por eso la recomendación de incorporar el nav de bootstrap.
 
-#animate {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 100%;
-    margin: auto;
-    width: 350px;
-    font-size: 26px;
-    font-family: Helvetica, sans-serif, Arial;
-    animation: carga 1.2s infinite 0s ease-in-out;
-    animation-direction: alternate;
-    text-shadow: 0 0 1px white;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-/*CSS*/
+Para el index podes trabajar un nav - imagen/ilustración como las que venis usando. con un h1 y listo. y que el resto se desarrolle en las secciones.
 
+
+
+En la página quien_soy no se ven aplicados estilos ni responsive por cuestiones como:
+
+otras cuestiones
+
+
+
+Veo problmas de rutas. Fijate que estas poniendo un enlace directo, una ruta absoluta desde tu ordenador.
+ Siempre tenes que llamar a la carpeta/ archivo de tu proyecto. <link rel="stylesheet" href="Nueva carpeta/quien-soy.css">
+
+Otro problema es que tu carpeta tiene, espacios. Los nombres de archivos y carpetas no llevan espacios ni caracteres especiales.
+
+
+
+Veo que volviste a incorporar más de una hoja de estilos. Si aún cuesta eso, deja de lado un poco scss y trabaja los estilos, solo desde una hoja de estilos.css, pero solo en una.
+
+
+
+El dcn de bootstrap siempre que provenga de la página oficial. Solo uno debe haber.
+
+
+
+
+
+En la página portfolio
+
+Definir si se llama portfolio o estudios y unificar titulo.
+
+En desktop no se ve el menú. En mobile no se despliega, pero seguramente sea por el tema de los cdn  que mencioné anteriormente y los scripts del final del body. 
+
+El contenido principal se visualiza bien! eso es muy bueno. 
+
+
+
+Ambiociones.html
+
+lo mismo, limpiar los cdn que no correspondan. 
+
+En desktop no se ve el menú, en mobile se despliega, pero no se ven los enlaces.
+
+El contenido principal se adapta correctamente!
+
+
+
+en contacto.html 
+
+a lo nuevo que agregaste le daría esta forma y ojo con los position, te recomiendo que los saques, podes probar en el navegador con f12, destilando las propiedades que no te sirvan.
+ Podes probar modificar tu contenedor general. Podes evitar el alto. ya que el alto a la página se lo va a dar el contenido. 
+
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="h1__quienSoy"> Esta es mi ubicacion</h1>
+        </div>
+        <div class="col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.400370155441!2d-58.5872612!3d-34.6269108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd459c1afde4574dc!2sS.I.T.A.S.!5e0!3m2!1sen!2sar!4v1629814568478!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+
+
+Sugiero que vuelvas al punto de partida de la páginas que te envié por slack.
+Estas encaminado, solo hay que hacer una limpieza en los archivos de links o dcn que no sirven para poder ver los cambios reflejados, de lo contrario todo comienza a pisarse y no podemos apreciar los cambios.
+
+
+/*
+/*Contacto CSS*/
 body{
     background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/49/85/15585be5299525a.jpg);
     width: 100%;
@@ -185,7 +224,7 @@ body{
     margin: 0;
     width: 900px;
   }
-  section .h1__contacto{
+  section h1{
     position: relative;
     color: azure;
     float: right;
@@ -263,7 +302,7 @@ body{
   }
 /*MOBILE FIRST*/
 @media only screen and (max-width:320px){
-    .contenedor__total__contacto{
+    .contenedor__total{
         padding: 0px;
         margin: 0px;
         background-color: rgba(253, 253, 99, 0.89);
@@ -317,7 +356,7 @@ body{
         margin: left 50px;
       }
     /*section*/
-    .h1__contacto{
+    .h1__quienSoy{
         left: 50px;
         top: 50px;
         color: black;
@@ -339,7 +378,7 @@ body{
 }
 
 @media only screen and (max-width:375px){
-    .contenedor__total__contacto{
+    .contenedor__total{
         padding: 0px;
         margin: 0px;
         background-color: rgba(255, 184, 103, 0.89);
@@ -414,7 +453,7 @@ body{
     }
 }
 @media only screen and (max-width:425px){
-    .contenedor__total__contacto{
+    .contenedor__total{
         padding: 0px;
         margin: 0px;
         background-color: rgb(71, 221 ,252 , 97%);
@@ -489,7 +528,7 @@ body{
     }
 }
 @media only screen and (max-width:768px){
-    .contenedor__total__contacto{
+    .contenedor__total{
         padding: 0px;
         margin: 0px;
         height: 100%;
@@ -543,7 +582,7 @@ body{
     }
 }
 @media only screen and (max-width:1024px){
-    .contenedor__total__contacto{
+    .contenedor__total{
         padding: 0px;
         margin: 0px;
         height: 827px;
@@ -632,4 +671,312 @@ body{
         padding-left: 18px;
         align-items: center;
     }
+}
+/*Estudios CSS*/
+/*CSS GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: black;
+}
+
+.header nav{
+    background-color: black;
+    z-index: 1000;
+}
+
+#navbarNav{
+    padding-left: 1650px;
+    font-size: 1.5em;
+}
+/*CSS*/
+.contenedor__total {
+    margin: 0;
+    background-image: url(../multimedia/estudios/0-2645_top-galaxy-wallpaper-blue-galaxy-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  #video {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 100px;
+    margin: 0;
+  }
+  
+  .video__estudios video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    pointer-events: none;
+    margin: 0;
+  }
+  
+  .h1__estudios {
+    position: relative;
+    color: white;
+    font-size: 4em;
+    padding-left: 7.5px;
+  }
+  .titulos__estudios {
+    color: aliceblue;
+    font-size: 1.5em;
+  }
+  .letras__estudios {
+    color: aliceblue;
+    font-size: 1.7em;
+    text-decoration: none;
+    padding-left: 25px;
+  }
+  
+  
+  .links_estudios {
+    text-decoration: none;
+    color:  #cc8b00;
+  }
+  
+  .portfolio__estudios {
+    font-size: large;
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    align-content: center;
+    text-decoration: none;
+  }
+  
+  
+  .onda__estudios{
+    position: relative;
+    padding-left: 50px;
+}
+.onda__estudios span{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    animation: animate_estudios 1s ease-in-out infinite;
+    animation-delay: calc(0.04s * var(--i));
+    margin: left 50px;
+}
+@keyframes animate_estudios{
+    0%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(-5px);
+    }
+    20%{
+        transform: translateY(-10px);
+    }
+    30%{
+        transform: translateY(-15px);
+    }
+    40%{
+        transform: translateY(-20px);
+    }
+}
+/*FOOTER*/
+
+.copyrightFooter__ambiciones {
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 70px;
+    margin: 0px;
+    animation-name: runMe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.pCopy__ambiciones {
+    color: blanchedalmond;
+    font-size: large;
+    text-align: center;
+}/*ANIMACION FOOTER*/
+
+  @keyframes runMe {
+    0% {
+        background-color: rgba(0, 0, 0, 0.01);
+        bottom: 0px
+    }
+    10% {
+        background-color: rgba(0, 0, 0, 0.1)
+    }
+    20% {
+        background-color: rgba(0, 0, 0, 0.2);
+        bottom: 30px
+    }
+    30% {
+        background-color: rgba(0, 0, 0, 0.3);
+        bottom: 30px
+    }
+    40% {
+        background-color: rgba(0, 0, 0, 0.4);
+        bottom: 30px
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.5);
+        bottom: 30px
+    }
+    60% {
+        background-color: rgba(0, 0, 0, 0.6);
+        bottom: 50px
+    }
+    70% {
+        background-color: rgba(0, 0, 0, 0.7);
+        bottom: 30px
+    }
+    80% {
+        background-color: rgba(0, 0, 0, 0.8);
+        bottom: 30px
+    }
+    90% {
+        background-color: rgba(0, 0, 0, 0.9);
+        bottom: 50px
+    }
+    100% {
+        background-color: black;
+        bottom: 80px
+    }
+}
+  /*responsive*/
+  /*MOBILE FIRST*/
+@media only screen and (max-width:320px){
+    #animate{
+        width: 320px;
+        left: 0;
+    }
+    .contenedor__total{
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-brand{
+        padding-left: 7px;
+    }
+    #navbarNav{
+        padding-left: 50px;
+        font-size: 0.8em;
+        color: white;
+        position: relative;
+        left: 0px;
+    }
+    main ul{
+        padding: 0px;
+    }
+    .h1__estudios {
+        font-size: 2em;
+        padding-left: 5px;
+        margin-right: 20px;
+    }
+    .titulos__estudios{
+        font-size: 24px;
+        padding-left: 12px;
+    }
+    .p__links{
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    p .links_estudios{
+        width: 100px;
+        height: 100px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .letras__estudios{
+        font-size: 18px;
+        text-align: left;
+        padding-left: 20px;
+    } 
+}
+
+@media only screen and (max-width:375px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    #navbarNav{
+        padding-left: 50px;
+        font-size: 0.8em;
+        color: white;
+        position: relative;
+        left: -600px;
+    }
+
+    #animate{
+        width: 320px;
+        left: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:425px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    #navbarNav{
+        padding-left: 50px;
+        font-size: 0.8em;
+        color: white;
+        position: relative;
+        left: 0px;
+    }
+
+
+
+}
+@media only screen and (max-width:768px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-brand{
+        padding-left: 0px;
+    }
+    #navbarNav{
+        padding-left: 0px;
+        font-size: 0.8em;
+        color: white;
+        position: relative;
+        left: 0px;
+    }
+}
+@media only screen and (max-width:1024px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    #navbarNav{
+        padding-left: 550px;
+        font-size: 0.8em;
+        color: white;
+        position: relative;
+    }
+
+}
+@media only screen and (max-width:1440px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-brand{
+        padding-left: 0px;
+        font-size: 2em;
+    }
+    #navbarNav{
+        padding-left: 850px;
+    }
+ 
 }
