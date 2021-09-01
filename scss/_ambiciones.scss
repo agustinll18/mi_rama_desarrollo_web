@@ -1,16 +1,17 @@
-//VARIABLES
-$link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
-//AMBICIONES
 .body__ambiciones {
-	background-color: rgb(56, 119, 255);
+	background-color: #3877ff;
 	background-size: 100%;
 	padding: 0px;
 	margin: 0px;
 }
 .header__ambiciones {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	padding: 5px;
 	background-color: rgba(0, 0, 0, 0.575);
+}
+#navbarNav {
+	padding-left: 1350px;
+	font-size: 1.5em;
 }
 .button__ambiciones {
 	width: 50px;
@@ -20,33 +21,33 @@ $link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
 }
 .figure__ambiciones {
 	position: relative;
-    width: 0.25%;
-    top: -505%;
+	width: 0.25%;
+	top: -505%;
 }
 .h1__ambiciones {
-	color: rgb(255, 255, 255);
+	color: white;
 	text-decoration: none;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .p__ambiciones {
-	color: rgb(0, 0, 0);
-	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
 	font-size: small;
 	text-align: justify;
 }
 .div__ambiciones {
 	color: aliceblue;
-	font-family: 'Times New Roman', Times, serif;
-	background-color: rgb(56, 119, 255);
+	font-family: "Times New Roman", Times, serif;
+	background-color: #3877ff;
 }
 .nav__ambiciones {
 	color: white;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	padding: 20px;
 }
 .footer__ambiciones {
 	color: white;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	padding: 20px;
 	background-color: midnightblue;
 	border: 20px solid #ff0059;
@@ -54,11 +55,11 @@ $link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
 .a__ambiciones {
 	color: aliceblue;
 	text-align: end;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Times New Roman", Times, serif;
 }
 .form__ambiciones {
 	color: aliceblue;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	background-color: rgba(56, 119, 255, 0.123);
 	padding: 20px;
 	box-shadow: black 5px 5px 55px;
@@ -68,16 +69,13 @@ $link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
 	position: relative;
 }
 .li__ambiciones {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: large;
 	color: maroon;
 	text-decoration: none;
 	font-weight: bold;
 	list-style: none;
 	border: #ff0059 7px;
-}
-.button__ambiciones {
-	height: 40px;
 }
 .imagen__ambiciones {
 	width: 100%;
@@ -92,7 +90,7 @@ $link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
 	font-size: 24px;
 	color: rgba(8, 8, 8, 0.664);
 	font-weight: bold;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
 	padding-left: 50px;
 }
 .clearfix__ambiciones {
@@ -109,43 +107,10 @@ $link:rgb(0, 153, 255);//LA OPERACION APARECE EN LA LINEA 112
 }
 .links__ambiciones {
 	text-decoration: none;
-	color: $link lighten($color: $link, $amount: 10);  
+	color: #0099ff #33adff;
 }
 .pFooter__ambiciones {
 	color: mintcream;
 	letter-spacing: 5px;
 	font-size: large;
-}
-.copyrightFooter__ambiciones {
-	font-family: sans-serif;
-	font-style: italic;
-	padding: 70px;
-	margin: 0px;
-	animation-name: runMe;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-}
-
-.pCopy__ambiciones {
-	color: blanchedalmond;
-	font-size: large;
-	text-align: center;
-}
-#myBtn {
-	display: none;
-	position: fixed;
-	bottom: 20px;
-	right: 30px;
-	z-index: 99;
-	border: none;
-	outline: 0;
-	background-color: red;
-	color: #fff;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 10px;
-	font-size: 18px;
-	&:hover {
-		background-color: #555;
-	}
 }

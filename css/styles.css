@@ -116,39 +116,39 @@
       }
       20% {
           background-color: rgba(0, 0, 0, 0.2);
-          bottom: 30px
+          bottom: 0px
       }
       30% {
           background-color: rgba(0, 0, 0, 0.3);
-          bottom: 30px
+          bottom: 0px
       }
       40% {
           background-color: rgba(0, 0, 0, 0.4);
-          bottom: 30px
+          bottom: 0px
       }
       50% {
           background-color: rgba(0, 0, 0, 0.5);
-          bottom: 30px
+          bottom: 0px
       }
       60% {
           background-color: rgba(0, 0, 0, 0.6);
-          bottom: 50px
+          bottom: 0px
       }
       70% {
           background-color: rgba(0, 0, 0, 0.7);
-          bottom: 30px
+          bottom: 0px
       }
       80% {
           background-color: rgba(0, 0, 0, 0.8);
-          bottom: 30px
+          bottom: 0px
       }
       90% {
           background-color: rgba(0, 0, 0, 0.9);
-          bottom: 50px
+          bottom: 0px
       }
       100% {
           background-color: black;
-          bottom: 80px
+          bottom: 0px
       }
   }
   .copyrightFooter__ambiciones {
@@ -165,6 +165,100 @@
     color: blanchedalmond;
     font-size: large;
     text-align: center;
+  }
+  
+
+  /*INDEX*/
+  .contenedor{
+    display: grid;
+    justify-content: left;
+    min-height: 100vh;
+    background: white;
+    overflow: hidden;
+    background-image: url(../multimedia/index/3295969.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  /*HEADER*/
+  .header__index{
+      display:none;
+  }
+  .guide{
+      display:none;
+  }
+  .menuPricipal__index {
+    width: 25%;
+    float: left;
+    padding: 15px;
+  }
+  .menuPricipal__index ul {
+    position: absolute;
+    display: grid;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    left: 7.5%;
+    top: 40%;
+  }
+  .menuPricipal__index ul li {
+    list-style: none;
+  }
+  .menuPricipal__index ul li:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 550%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7em;
+    opacity: 0;
+    font-weight: 700;
+    pointer-events: none;
+    letter-spacing: 25px;
+    transition: 0.5s;
+    white-space: nowrap;
+  }
+  .menuPricipal__index ul li:hover:before {
+    opacity: 0.35;
+    letter-spacing: 5px;
+  }
+  .menuPricipal__index ul li .menu__index {
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2.2px;
+    overflow: hidden;
+    background: cornsilk;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  .menuPricipal__index ul li .menu__index:hover {
+    transform: scale(1.4);
+    z-index: 1000;
+    background: aqua;
+    opacity: 1;
+  }
+  .menuPricipal__index ul li .menu__index:hover:before {
+    left: calc(100% + 100px);
+    transition: 0.5s;
+    transition-delay: 0.4s;
+  }
+  .menuPricipal__index ul li .menu__index:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.493), transparent);
+    transform: skewX(45deg);
+    transition: 0.5s;
+  }
+  .menuPricipal__index ul:hover li .menu__index {
+    opacity: 0;
   }
   /*css AMBICIONES*/
   .body__ambiciones {
@@ -714,6 +808,23 @@
     .navbar-brand{
         padding-left: 7px;
     }
+    /*INDEX*/
+    .header__index{
+        display: inline-block;
+        position: relative;
+        top: -185px;
+        width: 320px;
+        height: 40px;
+    }
+    .guide{
+        display: inline-block;
+        width: 320px;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+    }
+    .main__index{
+        display: none;
+    }
     /*AMBICIONES NO HAY NADA */
 
     /*CONTACTO*/
@@ -723,21 +834,6 @@
         background-color: rgba(253, 253, 99, 0.89);
         background-image: none;
         height: 100%;
-    }
-    header .navbar{
-        padding: 0px;
-    }
-    #navbarNav{
-        width: 100%;
-        padding-left: 15px;
-        font-size: 0.8em;
-        color: white;
-        position: relative;
-        left: 0px;
-        background-color: black;
-    }
-    .navbar-brand{
-        padding-left: 7px;
     }
     #animate{
         width: 320px;
@@ -852,6 +948,25 @@
         position: relative;
         left: -600px;
     }
+    /*INDEX*/
+    .header__index{
+        display: inline-block;
+        position: relative;
+        top: -175px;
+        width: 375px;
+        height: 50px;
+    }
+    .guide{
+        display: inline-block;
+        position: relative;
+        top: -135px;
+        width: 375px;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+    .main__index{
+        display: none;
+    }
     /*AMBICIONES NO HAY NADA */
     
     /*CONTACTO*/
@@ -862,21 +977,7 @@
         background-image: none;
         height: 100%;
     }
-    header .navbar{
-        padding: 0px;
-    }
-    #navbarNav{
-        width: 100%;
-        padding-left: 15px;
-        font-size: 0.8em;
-        color: white;
-        position: relative;
-        left: 0px;
-        background-color: black;
-    }
-    .navbar-brand{
-        padding-left: 7px;
-    }
+
     #animate{
         width: 320px;
         left: 0;
@@ -981,6 +1082,25 @@
         position: relative;
         left: 0px;
     }
+    /*INDEX*/
+    .header__index{
+        display: inline-block;
+        position: relative;
+        top: -185px;
+        width: 425px;
+        height: 50px;
+    }
+    .guide{
+        display: inline-block;
+        position: relative;
+        top: -135px;
+        width: 425px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    .main__index{
+        display: none;
+    }
     /*AMBICIONES NO HAY NADA */
     /*ESTUDIOS */
     #video{
@@ -1003,21 +1123,7 @@
         background-image: none;
         height: 100%;
     }
-    header .navbar{
-        padding: 0px;
-    }
-    #navbarNav{
-        width: 100%;
-        padding-left: 15px;
-        font-size: 0.8em;
-        color: white;
-        position: relative;
-        left: 0px;
-        background-color: black;
-    }
-    .navbar-brand{
-        padding-left: 7px;
-    }
+
     #animate{
         width: 320px;
         left: 0;
@@ -1110,6 +1216,25 @@
         position: relative;
         left: 0px;
     }
+    /*INDEX*/
+    .header__index{
+        display: inline-block;
+        position: relative;
+        top: -145px;
+        width: 768px;
+        height: 50px;
+    }
+    .guide{
+        display: inline-block;
+        position: relative;
+        top: -105px;
+        width: 768px;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+    }
+    .main__index{
+        display: none;
+    }
     /*AMBICIONES NO HAY NADA */
 
     /*CONTACTO*/
@@ -1118,22 +1243,7 @@
         margin: 0px;
         height: 827px;
     }
-    header .navbar{
-        padding: 0px;
-    }
-    #navbarNav{
-        width: 100%;
-        padding-left: 600px;
-        font-size: 1.2em;
-        color: white;
-        position: relative;
-        left: 0px;
-        background-color: black;
-    }
-    .navbar-brand{
-        padding-left: 7px;
-        font-size: 1.4em;
-    }
+
     #animate{
         width: 320px;
         left: 0;
@@ -1227,22 +1337,7 @@
         margin: 0px;
         height: 827px;
     }
-    header .navbar{
-        padding: 0px;
-    }
-    #navbarNav{
-        width: 100%;
-        padding-left: 600px;
-        font-size: 1.2em;
-        color: white;
-        position: relative;
-        left: 0px;
-        background-color: black;
-    }
-    .navbar-brand{
-        padding-left: 7px;
-        font-size: 1.4em;
-    }
+
     #animate{
         width: 320px;
         left: 0;
@@ -1334,22 +1429,6 @@
         padding: 0px;
         margin: 0px;
         height: 827px;
-    }
-    header .navbar{
-        padding: 0px;
-    }
-    #navbarNav{
-        width: 100%;
-        padding-left: 800px;
-        font-size: 1.3em;
-        color: white;
-        position: relative;
-        left: 0px;
-        background-color: black;
-    }
-    .navbar-brand{
-        padding-left: 7px;
-        font-size: 1.4em;
     }
     #animate{
         width: 320px;

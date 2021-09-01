@@ -1,0 +1,651 @@
+
+@media only screen and (max-width:320px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+	}
+	#navbarNav {
+		padding-left: 50px;
+		font-size: 0.8em;
+		color: white;
+		position: relative;
+		left: 0px;
+	}
+	.navbar-brand {
+		padding-left: 7px;
+	}
+	.header__index {
+		display: inline-block;
+		position: relative;
+		top: -185px;
+		width: 320px;
+		height: 40px;
+	}
+	.guide {
+		display: inline-block;
+		width: 320px;
+		color: rgb(255, 255, 255);
+		font-size: 12px;
+	}
+	.main__index {
+		display: none;
+	}
+	.contenedor__total__contacto {
+		padding: 0px;
+		margin: 0px;
+		background-color: rgba(253, 253, 99, 0.89);
+		background-image: none;
+		height: 100%;
+	}
+	#animate {
+		width: 320px;
+		left: 0;
+		width: 320px;
+		left: 0;
+	}
+	main {
+		.ul__contacto2 {
+			display: none;
+		}
+		ul {
+			padding: 0px;
+		}
+	}
+	.aside__contacto {
+		ul {
+			display: inline-block;
+			top: 0;
+			width: 320px;
+			height: 75px;
+			text-decoration: wavy;
+			padding-top: 145px;
+			color: black;
+			li {
+				padding: 0px;
+				z-index: 1000;
+			}
+		}
+	}
+	li {
+		span {
+			position: relative;
+			display: inline-block;
+			color: rgb(0, 0, 0);
+			font-size: 1em;
+			animation: animate 1s ease-in-out infinite;
+			animation-delay: calc(0.04s * var(--i));
+			margin: left 50px;
+		}
+	}
+	.h1__quienSoy {
+		left: -550px;
+		top: 50px;
+		color: rgb(255, 255, 255);
+		align-content: center;
+		width: 320px;
+		font-size: 2em;
+		text-align: center;
+		margin-right: 20px;
+	}
+	iframe {
+		align-content: center;
+		width: 300px;
+		height: 200px;
+		left: -600px;
+		top: 20px;
+		color: black;
+	}
+	.copyrightFooter__contacto {
+		bottom: 0;
+	}
+	#video {
+		width: 320px;
+		height: 275px;
+	}
+	.h1__estudios {
+		font-size: 2em;
+		padding-left: 5px;
+		margin-right: 20px;
+	}
+	.titulos__estudios {
+		font-size: 24px;
+		padding-left: 12px;
+	}
+	.p__links {
+		font-size: 14px;
+		text-decoration: none;
+	}
+	.letras__estudios {
+		font-size: 14px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#text {
+		font-size: 2.5em;
+		margin: 5px;
+	}
+	.p__quienSoy {
+		font-size: 12px;
+		text-align: left;
+		margin-right: 45px;
+		color: aliceblue;
+	}
+}
+@media only screen and (max-width:375px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+	}
+	#navbarNav {
+		padding-left: 50px;
+		font-size: 0.85em;
+		color: white;
+		position: relative;
+		left: -600px;
+		width: 320px;
+	}
+	.header__index {
+		display: inline-block;
+		position: relative;
+		top: -175px;
+		width: 375px;
+		height: 50px;
+	}
+	.guide {
+		display: inline-block;
+		position: relative;
+		top: -135px;
+		width: 375px;
+		color: rgb(255, 255, 255);
+		font-size: 14px;
+	}
+	.main__index {
+		display: none;
+	}
+	.contenedor__total__contacto {
+		padding: 0px;
+		margin: 0px;
+		background-color: rgba(255, 184, 103, 0.89);
+		background-image: none;
+		height: 100%;
+	}
+	#animate {
+		width: 320px;
+		left: 0;
+		width: 320px;
+		left: 0;
+		margin: 0;
+	}
+	main {
+		.ul__contacto2 {
+			display: none;
+		}
+	}
+	.aside__contacto {
+		ul {
+			display: inline-block;
+			top: 0;
+			width: 320px;
+			height: 75px;
+			text-decoration: wavy;
+			padding-top: 150px;
+			z-index: 1000;
+			color: black;
+			li {
+				padding: 0px;
+				z-index: 1000;
+			}
+		}
+	}
+	li {
+		span {
+			position: relative;
+			display: inline-block;
+			color: rgb(0, 0, 0);
+			font-size: 1em;
+			animation: animate 1s ease-in-out infinite;
+			animation-delay: calc(0.04s * var(--i));
+			margin: left 50px;
+		}
+	}
+	.h1__quienSoy {
+		left: 50px;
+		top: 50px;
+		color: rgb(255, 255, 255);
+		align-content: center;
+		font-size: 3em;
+		text-align: center;
+		margin-right: 10px;
+		align-items: center;
+	}
+	iframe {
+		align-content: center;
+		width: 360px;
+		height: 200px;
+		left: -550px;
+		top: 20px;
+	}
+	.copyrightFooter__contacto {
+		bottom: 0;
+	}
+	#video {
+		width: 375px;
+		height: 325px;
+	}
+	.p__links {
+		font-size: 15px;
+	}
+	.letras__estudios {
+		font-size: 15px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#text {
+		font-size: 2.75em;
+		margin: 20px;
+	}
+	.p__quienSoy {
+		font-size: 12px;
+		text-align: left;
+		margin-right: 15px;
+		padding-left: 1px;
+		align-items: center;
+	}
+	.negrita__quienSoy {
+		padding-left: 5px;
+	}
+}
+@media only screen and (max-width:425px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+	}
+	#navbarNav {
+		padding-left: 50px;
+		font-size: 0.9em;
+		color: white;
+		position: relative;
+		left: 0px;
+	}
+	.header__index {
+		display: inline-block;
+		position: relative;
+		top: -185px;
+		width: 425px;
+		height: 50px;
+	}
+	.guide {
+		display: inline-block;
+		position: relative;
+		top: -135px;
+		width: 425px;
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+	}
+	.main__index {
+		display: none;
+	}
+	#video {
+		width: 425px;
+		height: 355px;
+	}
+	.p__links {
+		font-size: 16px;
+	}
+	.letras__estudios {
+		font-size: 16px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	.contenedor__total__contacto {
+		padding: 0px;
+		margin: 0px;
+		background-color: rgb(71, 221 ,252 , 97%);
+		background-image: none;
+		height: 100%;
+	}
+	#animate {
+		width: 320px;
+		left: 0;
+	}
+	main {
+		.ul__contacto2 {
+			display: none;
+		}
+	}
+	.aside__contacto {
+		ul {
+			display: inline-block;
+			top: 0;
+			width: 320px;
+			height: 75px;
+			text-decoration: wavy;
+			padding-top: 160px;
+			z-index: 1000;
+			color: black;
+			li {
+				padding: 0px;
+				z-index: 1000;
+			}
+		}
+	}
+	li {
+		span {
+			position: relative;
+			display: inline-block;
+			color: rgb(0, 0, 0);
+			font-size: 1em;
+			animation: animate 1s ease-in-out infinite;
+			animation-delay: calc(0.04s * var(--i));
+			margin: left 50px;
+		}
+	}
+	.h1__quienSoy {
+		left: 50px;
+		top: 50px;
+		color: black;
+		align-content: center;
+		font-size: 3em;
+		text-align: center;
+		margin-right: 10px;
+		align-items: center;
+	}
+	iframe {
+		align-content: center;
+		width: 400px;
+		height: 300px;
+		left: -510px;
+		top: 20px;
+		color: black;
+	}
+	.copyrightFooter__contacto {
+		bottom: 0;
+	}
+	#text {
+		font-size: 4em;
+		margin: 20px;
+	}
+	.p__quienSoy {
+		font-size: 12px;
+		text-align: left;
+		margin-right: 15px;
+		padding-left: 10px;
+		align-items: center;
+	}
+	.negrita__quienSoy {
+		padding-left: 8px;
+		align-items: center;
+	}
+}
+@media only screen and (max-width:768px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+	}
+	.navbar-brand {
+		padding-left: 0px;
+	}
+	#navbarNav {
+		padding-left: 0px;
+		font-size: 0.95em;
+		color: white;
+		position: relative;
+		left: 0px;
+	}
+	.header__index {
+		display: inline-block;
+		position: relative;
+		top: -145px;
+		width: 768px;
+		height: 50px;
+	}
+	.guide {
+		display: inline-block;
+		position: relative;
+		top: -105px;
+		width: 768px;
+		color: rgb(255, 255, 255);
+		font-size: 24px;
+	}
+	.main__index {
+		display: none;
+	}
+	.contenedor__total {
+		padding: 0px;
+		margin: 0px;
+		height: 827px;
+	}
+	#animate {
+		width: 320px;
+		left: 0;
+	}
+	main {
+		.ul__contacto2 {
+			top: 100px;
+			left: -30px;
+			height: 220px;
+			.li__contacto2 {
+				&:before {
+					left: 600px;
+					font-size: 4em;
+				}
+			}
+		}
+	}
+	.h1__quienSoy {
+		position: relative;
+		left: 50px;
+		top: 350px;
+		color: rgb(255, 255, 255);
+		align-content: center;
+		font-size: 3.4em;
+		font-size: 3em;
+		text-align: center;
+		margin-right: 10px;
+		align-items: center;
+	}
+	iframe {
+		align-content: center;
+		width: 850px;
+		height: 600px;
+		left: 10px;
+		top: 370px;
+	}
+	.copyrightFooter__contacto {
+		bottom: -450px;
+	}
+	#video {
+		width: 768px;
+		height: 595px;
+	}
+	.p__links {
+		font-size: 22px;
+	}
+	.letras__estudios {
+		font-size: 22px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#text {
+		font-size: 4em;
+		margin: 20px;
+	}
+	.p__quienSoy {
+		font-size: 18px;
+		text-align: left;
+		margin-right: 15px;
+		padding-left: 10px;
+		align-items: center;
+	}
+	.negrita__quienSoy {
+		padding-left: 8px;
+		align-items: center;
+	}
+}
+@media only screen and (max-width:1024px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+	}
+	#navbarNav {
+		padding-left: 550px;
+		font-size: 1.17em;
+		color: white;
+		position: relative;
+	}
+	.contenedor__total__contacto {
+		padding: 0px;
+		margin: 0px;
+		height: 827px;
+	}
+	#animate {
+		width: 320px;
+		left: 0;
+	}
+	main {
+		.ul__contacto2 {
+			top: 100px;
+			left: -30px;
+			height: 220px;
+			.li__contacto2 {
+				&:before {
+					left: 600px;
+					font-size: 4em;
+				}
+			}
+		}
+	}
+	.h1__quienSoy {
+		position: relative;
+		left: 650px;
+		top: 0px;
+		color: rgb(255, 255, 255);
+		align-content: center;
+		font-size: 1.7em;
+		font-size: 3em;
+		text-align: center;
+		margin-right: 10px;
+		align-items: center;
+	}
+	iframe {
+		align-content: center;
+		width: 420px;
+		height: 300px;
+		left: 120px;
+		top: 5px;
+	}
+	.copyrightFooter__contacto {
+		bottom: 15px;
+	}
+	#video {
+		width: 1024px;
+		height: 795px;
+	}
+	.p__links {
+		font-size: 29px;
+	}
+	.letras__estudios {
+		font-size: 29px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#text {
+		font-size: 4.5em;
+		margin: 20px;
+	}
+	.p__quienSoy {
+		font-size: 18px;
+		text-align: left;
+		margin-right: 15px;
+		padding-left: 20px;
+		align-items: center;
+	}
+	.negrita__quienSoy {
+		padding-left: 18px;
+		align-items: center;
+	}
+}
+@media only screen and (max-width:1440px ) {
+	body {
+		padding: 0px;
+		margin: 0px;
+	}
+	.navbar-brand {
+		padding-left: 0px;
+		font-size: 2em;
+	}
+	#navbarNav {
+		padding-left: 850px;
+	}
+	.contenedor__total__contacto {
+		padding: 0px;
+		margin: 0px;
+		height: 827px;
+	}
+	#animate {
+		width: 320px;
+		left: 0;
+	}
+	main {
+		.ul__contacto2 {
+			top: 100px;
+			left: -30px;
+			height: 220px;
+			.li__contacto2 {
+				&:before {
+					left: 600px;
+					font-size: 4em;
+				}
+			}
+		}
+	}
+	.h1__quienSoy {
+		position: relative;
+		left: 1150px;
+		top: 0px;
+		color: rgb(255, 255, 255);
+		align-content: center;
+		font-size: 1.7em;
+		font-size: 3em;
+		text-align: center;
+		margin-right: 10px;
+		align-items: center;
+	}
+	iframe {
+		align-content: center;
+		width: 420px;
+		height: 300px;
+		left: 520px;
+		top: 5px;
+	}
+	.copyrightFooter__contacto {
+		bottom: 15px;
+	}
+	#video {
+		width: 1440px;
+		height: 1195px;
+	}
+	.p__links {
+		font-size: 34px;
+	}
+	.letras__estudios {
+		font-size: 34px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#text {
+		font-size: 5.5em;
+		margin: 20px;
+	}
+	.p__quienSoy {
+		font-size: 18px;
+		text-align: left;
+		margin-right: 15px;
+		padding-left: 20px;
+		align-items: center;
+	}
+	.negrita__quienSoy {
+		padding-left: 18px;
+		align-items: center;
+	}
+}

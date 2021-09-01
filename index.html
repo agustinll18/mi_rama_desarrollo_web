@@ -9,36 +9,79 @@
 	<meta name="description" content="Esta página ,con el fin de crear un Portfolio profesional, estuvo desarrollada por Cesar Agustín LLados, estudiante de la carrera Full-Stack developer.Muchas gracias por la visita."><!--SEO-->
 	<meta name="keywords" content="Portfolio, desarrollo web,ambiciones,front-end,Full-Stack,back-end,programador,profesional,html5,css3,javascript,reactJS,estudios,ingles,junior developer,Portfolio profesional,Portfolio Full-Stack,aprendiz">
 	<!--CSS-->
-	<link rel="stylesheet"  href="css/styles.css">
+	<link rel="stylesheet"  href="css/style.css">
 	<!--MULTIMEDIA-->
 	<link rel="icon" type="image/png" href="multimedia/index/depositphotos_108455336-stock-illustration-line-icon-portfolio.ico"><!--ICON FORMAT .ICO-->
 	<!--BOOTSTRAP-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
   </head>
   <body >
 	<div class="contenedor">
 		<div id="animate0">
 		    <div id="animate"> Cargando...</div>
 	    </div>
-
-	
-		<nav >
-	        <div class="row">
-		        <div class="col-3 menu"id="menuPricipal__index">
-		          <ul>
-		        	<li data-text="Ambiciones"><a  href="secciones/ambiciones.html"id="menu__index">Ambiciones</a></li>
-    	            <li data-text="Estudios"><a href="secciones/estudios.html"id="menu__index">Estudios</a></li>
-    	            <li data-text="Quien soy?"><a  href="secciones/quien_soy.html"id="menu__index">Quien soy?</a></li>
-    	            <li data-text="Contacto"><a  href="secciones/contacto.html"id="menu__index">Contacto</a></li>
-		          </ul>
-		        </div>
-            </div>
-	    </nav>	
+		
+		<div class="header__index">
+			<header  class="header" >
+		    	<nav class="navbar navbar-expand-lg navbar-dark">
+		    		<div class="container-fluid">
+		    		  <a class="navbar-brand" href="#">Portfolio</a>
+		    		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    			<span class="navbar-toggler-icon"></span>
+		    		  </button>
+		    		  <div class="collapse navbar-collapse" id="navbarNav">
+		    			<ul class="navbar-nav">
+		    			  <li class="nav-item">
+		    				<a class="nav-link"href="secciones/ambiciones.html">Ambiciones</a>
+		    			  </li>
+		    			  <li class="nav-item">
+		    				<a class="nav-link" href="secciones/quien_soy.html">Quien soy</a>
+		    			  </li>
+		    			  <li class="nav-item">
+		    				<a class="nav-link" href="secciones/contacto.html">Contacto</a>
+		    			  </li>
+		    			  <li class="nav-item">
+		    				<a class="nav-link" href="secciones/estudios.html" >Estudios</a>
+		    			  </li>
+		    			</ul>
+		    		  </div>
+		    		</div>
+		    	  </nav>
+		    </header>
+        </div>
+		<div class="guide">
+			<ul>
+				<li><p>Ambiciones: esta seccion trata sobre las aspiraciones profesionales que deseo cumplir</p></li>
+				<li><p>Contacto : esta seccion brinda al usuario distintas maneras de contactarme via email, telefono, redes sociales, etc.</p></li>
+				<li><p>Estudios : esta seccion describe los estudios que fui realizando despues de haber hecho toda la escolaridad completa</p></li>
+				<li><p>Quien soy: esta seccion habla sobre una breve descripcion mia y mi actualidad</p></li>
+			</ul>
+		</div>
+		<main class="main__index">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="height: 100vh; width: 350px;">
+			<!-- Links -->
+			    <div class="menuPricipal__index">
+			    	<ul>
+			    		<li data-text="Ambiciones"><a  href="secciones/ambiciones.html"class="menu__index">Ambiciones</a></li>
+			    		<li data-text="Estudios"><a href="secciones/estudios.html"class="menu__index">Estudios</a></li>
+			    		<li data-text="Quien soy?"><a  href="secciones/quien_soy.html"class="menu__index">Quien soy?</a></li>
+			    		<li data-text="Contacto"><a  href="secciones/contacto.html"class="menu__index">Contacto</a></li>
+			    	</ul>
+			    </div>
+		  </nav>
+		</main>
     </div>
 
 <script src="js/index.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>	
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- scripts bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
 </body>
 </html>
