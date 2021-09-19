@@ -684,6 +684,11 @@ iframe {
     position: relative;
     top: 0;
     width: 320px;
+    height: auto;
+    opacity: 1;
+    color: transparent;
+    width: 320px;
+    height: auto;
   }
 
   #navbarNav {
@@ -1170,7 +1175,7 @@ iframe {
   }
 
   .copyrightFooter__contacto {
-    bottom: -450px;
+    bottom: 0px;
   }
 
   #video {
@@ -1255,11 +1260,24 @@ iframe {
     margin-bottom: 30px;
   }
 
+  .container__contacto h1 {
+    position: relative;
+    color: azure;
+    float: right;
+    right: -120px;
+    width: 400px;
+    padding-top: 0px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: "Courier New", Courier, monospace;
+    top: 0px;
+  }
+
   iframe {
     align-content: center;
     width: 420px;
     height: 300px;
-    left: 120px;
+    left: 520px;
     top: 5px;
   }
 
@@ -1425,11 +1443,17 @@ iframe {
 }
 
 .header__index {
-  display: none;
+  position: absolute;
+  color: transparent;
+  width: 0px;
+  height: 0px;
+  font-size: 0px;
 }
 
 .guide {
-  display: none;
+  color: transparent;
+  width: 0px;
+  height: 0px;
 }
 
 .menuPricipal__index {
