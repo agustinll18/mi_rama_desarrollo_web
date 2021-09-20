@@ -675,10 +675,6 @@ iframe {
     display: none;
   }
 
-  .main__index {
-    display: none;
-  }
-
   .header__index {
     display: inline-block;
     position: relative;
@@ -757,13 +753,19 @@ iframe {
     margin-bottom: 30px;
   }
 
+  .container__contacto h1 {
+    left: -490px;
+    top: 0px;
+    color: black;
+    font-size: 1.4em;
+  }
+
   iframe {
     align-content: center;
     width: 300px;
     height: 200px;
-    left: -600px;
+    left: -200px;
     top: 20px;
-    color: black;
   }
 
   .copyrightFooter__contacto {
@@ -816,10 +818,6 @@ iframe {
   }
 
   #animate0 {
-    display: none;
-  }
-
-  .main__index {
     display: none;
   }
 
@@ -893,11 +891,18 @@ iframe {
     margin-bottom: 30px;
   }
 
+  .container__contacto h1 {
+    left: -490px;
+    top: 0px;
+    color: black;
+    font-size: 1.8em;
+  }
+
   iframe {
     align-content: center;
     width: 360px;
     height: 200px;
-    left: -550px;
+    left: -150px;
     top: 20px;
   }
 
@@ -955,10 +960,6 @@ iframe {
   .guide {
     color: white;
     font-size: 16px;
-  }
-
-  .main__index {
-    display: none;
   }
 
   #video {
@@ -1032,11 +1033,17 @@ iframe {
     margin-bottom: 30px;
   }
 
+  .container__contacto h1 {
+    left: -470px;
+    top: 0px;
+    color: black;
+  }
+
   iframe {
     align-content: center;
     width: 400px;
     height: 300px;
-    left: -510px;
+    left: -90px;
     top: 20px;
     color: black;
   }
@@ -1085,10 +1092,6 @@ iframe {
   .guide {
     color: white;
     font-size: 24px;
-  }
-
-  .main__index {
-    display: none;
   }
 
   .contenedor__total {
@@ -1167,11 +1170,19 @@ iframe {
     margin-bottom: 30px;
   }
 
+  .container__contacto h1 {
+    left: -470px;
+    top: 0px;
+    color: black;
+  }
+
   iframe {
     align-content: center;
-    width: 750px;
-    height: 600px;
-    left: -120px;
+    width: 400px;
+    height: 300px;
+    left: -90px;
+    top: 20px;
+    color: black;
   }
 
   .copyrightFooter__contacto {
@@ -1264,21 +1275,21 @@ iframe {
     position: relative;
     color: azure;
     float: right;
-    right: -120px;
+    right: 450px;
     width: 400px;
     padding-top: 0px;
     font-size: 2em;
     font-weight: 500;
     font-family: "Courier New", Courier, monospace;
-    top: 0px;
+    top: 70px;
   }
 
   iframe {
     align-content: center;
     width: 420px;
     height: 300px;
-    left: 520px;
-    top: 5px;
+    left: -50px;
+    top: 80px;
   }
 
   .copyrightFooter__contacto {
@@ -1372,21 +1383,21 @@ iframe {
     position: relative;
     color: azure;
     float: right;
-    right: -400px;
+    right: 450px;
     width: 400px;
     padding-top: 0px;
     font-size: 2em;
     font-weight: 500;
     font-family: "Courier New", Courier, monospace;
-    top: -5px;
+    top: 50px;
   }
 
   iframe {
     align-content: center;
     width: 420px;
     height: 300px;
-    left: 820px;
-    top: 5px;
+    left: -50px;
+    top: 80px;
   }
 
   .copyrightFooter__contacto {
