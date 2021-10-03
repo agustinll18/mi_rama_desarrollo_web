@@ -2,7 +2,7 @@
 
 /*section*/
 .contenedor__total__contacto {
-	background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/49/85/15585be5299525a.jpg);
+	background-image: url(http://s12.radikal.ru/i185/1205/cf/ec6e4f581d0d.jpg);
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -43,6 +43,13 @@ main {
 		left: 0px;
 		width: 250px;
 		height: 300px;
+		&:hover {
+			.li__contacto2 {
+				.info__contacto {
+					opacity: 0;
+				}
+			}
+		}
 		.li__contacto2 {
 			list-style: none;
 			width: 177.89px;
@@ -108,13 +115,7 @@ main {
 				}
 			}
 		}
-		&:hover {
-			.li__contacto2 {
-				.info__contacto {
-					opacity: 0;
-				}
-			}
-		}
+		
 	}
 }
 .info__contacto {

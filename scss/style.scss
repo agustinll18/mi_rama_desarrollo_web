@@ -3,6 +3,7 @@
 @import'_contacto';
 @import'_estudios';
 @import'_quienSoy'; 
+@import'_tienda';
 @import'_mobileFirst';
 // MOBILE FIRST
 
@@ -30,7 +31,7 @@
 	color: transparent;
 	width: 0px;
 	height: 0px;
-}
+} 
 .menuPricipal__index {
 	width: 25%;
 	float: left;
@@ -43,14 +44,21 @@
 		justify-content: center;
 		left: 7.5%;
 		top: 40%;
+		&:hover {
+			li {
+				.menu__index {
+					opacity: 0;
+				}
+			}
+		}
 		li {
 			list-style: none;
 			&:before {
 				content: attr(data-text);
 				position: absolute;
 				top: 50%;
-				left: 550%;
-				font-size: 7em;
+				left: 1050px;
+				font-size: 6em;
 				transform: translate(-50%, -50%);
 				color: white;
 				opacity: 0;
@@ -79,7 +87,6 @@
 				transition: 0.3s;
 				&:hover {
 					transform: scale(1.4);
-					z-index: 1000;
 					background: aqua;
 					opacity: 1;
 					&:before {
@@ -89,7 +96,7 @@
 					}
 				}
 				&:before {
-					content: "";
+					content: '';
 					position: absolute;
 					top: 0;
 					left: 0;
@@ -100,13 +107,7 @@
 					transition: 0.5s;
 				}
 			}
-		}
-		&:hover {
-			li {
-				.menu__index {
-					opacity: 0;
-				}
-			}
-		}
+		} 
+		
 	}
 }

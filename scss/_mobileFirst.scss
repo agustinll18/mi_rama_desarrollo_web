@@ -5,26 +5,12 @@
 		margin: 0px;
 	} 
 	#animate0{display: none;}
-
-	.header__index {
+    .main__index{
 		display: inline-block;
-		position: relative;
-		top: 0;
-		width: 320px;
-		height: auto;
-		opacity: 1;
-		color: transparent;
-	    width: 320px;
-	    height: auto;
 	}
 	#navbarNav{
 		background-color: black;
 		padding: 0;
-	}
-	.guide {
-		display: inline-block;
-		color: rgb(255, 255, 255);
-		font-size: 12px;
 	}
 	.contenedor__total__contacto {
 		padding: 0px;
@@ -143,21 +129,15 @@
 		background-image: none;
 		height: 100%;
 	}
+	.main__index{
+		display: inline-block;
+	}
 	#animate {
 		width: 320px;
 		left: 0;
 		width: 320px;
 		left: 0;
 		margin: 0;
-	}
-	.header__index {
-		top: 0;
-		width: 375px;
-	}
-	.guide {
-		display: inline-block;
-		color: rgb(255, 255, 255);
-		font-size: 14px;
 	}
 	#navbarNav{
 		background-color: black;
@@ -252,13 +232,8 @@
 		margin: 0px;
 	}
 	#animate0{display: none;}
-	.header__index {
-		top: 0;
-		width: 425px;
-	}
-	.guide {
-		color: rgb(255, 255, 255);
-		font-size: 16px;
+	.main__index{
+		display: inline-block;
 	}
 	#video {
 		width: 425px;
@@ -368,15 +343,9 @@
 	.navbar-brand {
 		padding-left: 0px;
 	}
-	.header__index {
-		top: 0;
-		width: 768px;
+	.main__index{
+		display: inline-block;
 	}
-	.guide {
-		color: rgb(255, 255, 255);
-		font-size: 24px;
-	}
-
 	.contenedor__total {
 		padding: 0px;
 		margin: 0px;
@@ -505,8 +474,7 @@
 	.header__index{display: none;}
 	.guide{display: none;}
 	.menuPricipal__index ul li:before{
-		left: 700px;
-	    font-size: 6em;
+		right: -2100px;
 	}
 	.contenedor__total__contacto {
 		padding: 0px;
